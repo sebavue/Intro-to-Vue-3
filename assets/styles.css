@@ -10,7 +10,7 @@ body {
   background-color: #39495c;
   border-radius: 5px;
   font-size: 18px;
-  width: 160px;
+  min-width: 160px;
   height: 60px;
   color: white;
   padding: 20px;
@@ -39,7 +39,6 @@ body {
   border: 2px solid #d8d8d8;
   border-radius: 50%;
 }
-
 
 .disabledButton {
   background-color: #d8d8d8;
@@ -175,4 +174,14 @@ ul {
   .review-form {
     width: 90%;
   }
+}
+
+.cartButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.disabled {
+  background-color: grey;
+  cursor: not-allowed;
 }
